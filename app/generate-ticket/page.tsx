@@ -329,8 +329,8 @@ const GenerateTicketPage: React.FC<GenerateTicketProps> = ({
 
   return (
     <div className="flex flex-col p-5 gap-5 max-sm:mt-12 md:w-[35rem]">
-      <div className="flex items-center place-content-center  ">
-        <Image src="/images/Bot.png" alt="botlogo" height="100" width="100" />
+      <div className="flex items-center place-content-center mt-5 ">
+        {/* <Image src="/images/Bot.png" alt="botlogo" height="100" width="100" /> */}
         <span className="text-center   italic font-semibold">
           Hi! Generate your support ticket here
         </span>
